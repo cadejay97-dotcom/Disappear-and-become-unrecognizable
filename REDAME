@@ -1,0 +1,53 @@
+
+HTML学习笔记
+总结：前端作为超文本标记语言，具备文本即链接的能力。
+Tags让浏览器得以识别不同的内容类型，从而进行相应的渲染和处理。
+文件结构：
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        /* CSS样式 */
+
+        body{
+            background-color: lightgrey;
+        } 
+
+        /* h1样式 */
+        h1{
+            color: red;
+            font-style: italic;
+            list-style-position: outside;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Hellocode</h1>
+        <u>hellocode</u>
+        <em>hellocode</em>
+        <strong>hellocode</strong>
+        <a href="https://www.awwwards.com" target="_blank">go to    awwwards</a>                            
+    </div>
+    <div id="REMAND">Yes</div>      
+    <span>
+This is a span element. 
+    </span>
+    <hr>
+</body>
+</html> 
+最近编辑的文件
+File: index.html    
+--- a/file:///Users/mc/Desktop/Dispear%20and%20become%20unrecognizeable/index.html
++++ b/file:///Users/mc/Desktop/Dispear%20and%20become%20unrecognizeable/index.html
+@@ -24,6 +24,10 @@
+         <strong>hellocode</strong> 
+
+
+
+                                                with link: 
+                    
